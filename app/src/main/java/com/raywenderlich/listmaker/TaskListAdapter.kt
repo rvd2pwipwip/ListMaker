@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 
-//extend RecyclerView.Adapter and tell it to use the TodoListViewHolder object type
+//extend RecyclerView.Adapter and tell it to use the TaskListViewHolder object type
 //add default constructor that accepts a task list
 class TaskListAdapter(var list: TaskList): RecyclerView.Adapter<TaskListViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TaskListViewHolder {
